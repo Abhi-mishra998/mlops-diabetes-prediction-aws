@@ -1,0 +1,89 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Virtual environment
+venv/
+env/
+ENV/
+.venv/
+.python-version
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+*.whl
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# AWS / cloud files
+awscliv2.zip
+eksctl_Linux_amd64.tar.gz
+*.pem
+*.key
+*.csr
+*.crt
+*.p12
+
+# Logs
+*.log
+*.out
+*.err
+
+# Model artifacts
+*.pkl
+*.h5
+*.pt
+
+# Docker
+*.dockerignore
+Dockerfile
+docker-compose.yml
+
+# Kubernetes
+*.yaml
+*.yml
+k8s-deploy.yml
+deployment.yaml
+service.yaml
+ingress.yaml
+*.sha256
+
+# IDE / Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*.sublime-project
+*.sublime-workspace
+
+# Mac / Linux system files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.bak
+
