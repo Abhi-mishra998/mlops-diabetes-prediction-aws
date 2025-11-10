@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pkl
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+.mlops/
+*.egg-info
+
+# Kaggle credentials
+.kaggle/
+kaggle.json
+
+# Logs and temporary files
+*.log
+*.tmp
+*.out
+
+# Build and cache
+build/
+dist/
+*.egg-info/
+
+# IDE / editor settings
+.vscode/
+.idea/
+*.swp
+
+# Docker / Kubernetes
+*.sha256
+*.tar
+*.zip
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Sensitive files
+*.pem
+*.key
+*.crt
