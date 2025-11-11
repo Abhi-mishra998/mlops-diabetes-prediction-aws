@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: diabetes-api
-        image: abhishek8056/mlops-project:latest   # 👈 your Docker Hub image
+        image: abhishek8056/mlops-project:latest   
         ports:
         - containerPort: 8000
         imagePullPolicy: Always
